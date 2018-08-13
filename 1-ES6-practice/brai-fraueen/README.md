@@ -22,10 +22,13 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+const was replaced to almost every var that was orginally placed. The reason will not be a because that variable cannot be reassigned.
+let was changed for all for loops because the values assigned to them can be reassigned to any type of value at any time, so long as the reassignment occurs within the same scope in which the variable was declared.
+
+The pattern that I could identify is that var changed to let was in the for loops, every other var was changed to const because that variable cannot be reassigned.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+At first it was confusing as anything is when I'm shown something new. But understanding placement of where things needed to be and what needs to be taken away. Yes I would like to use template literals from now on, if I remember. 
